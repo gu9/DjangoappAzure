@@ -7,7 +7,7 @@ resource "azurerm_network_security_rule" "django-vm-in-ssh" {
   protocol = "Tcp"
   source_port_range = "*"
   destination_port_range = "*"
-  source_address_prefix = "*"
+  source_address_prefix = var.JUMP_BOX
   destination_address_prefix = "*"
   resource_group_name = azurerm_resource_group.workload_webapp.name
 

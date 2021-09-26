@@ -11,3 +11,6 @@ variable "ssh_key_path" {
 variable "vm_count" {
   default = 1
 }
+variable "JUMP_BOX" {
+  default = ""
+}

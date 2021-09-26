@@ -18,6 +18,6 @@ resource "azurerm_postgresql_firewall_rule" "postdb-firewall_rules" {
   name                = "fw"
   resource_group_name = azurerm_resource_group.workload_webapp.name
   server_name         = azurerm_postgresql_server.django-db.name
-  start_ip_address    = "104.205.237.246"
-  end_ip_address      = "104.205.237.246"
+  start_ip_address    = var.JUMP_BOX
+  end_ip_address      = var.JUMP_BOX
 }
