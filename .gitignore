@@ -8,3 +8,4 @@ terraform.*
 /.terraform.tfstate.lock.info
 hosts.txt
 hosts
+/ansible/play.yml-e
