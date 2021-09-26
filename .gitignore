@@ -1,0 +1,10 @@
+.terraform/
+*/env.*
+env.*
+terraform.*
+/Application-release-v1.10/flask-on-docker-nginx-gunicorn/.env.prod.db
+/Application-release-v1.10/flask-on-docker-nginx-gunicorn/.env.prod
+/Application-release-v1.10/flask-on-docker-nginx-gunicorn/.env.dev
+/.terraform.tfstate.lock.info
+hosts.txt
+hosts

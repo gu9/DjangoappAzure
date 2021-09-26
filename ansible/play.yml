@@ -1,0 +1,9 @@
+---
+- name: Intall WebApp
+  hosts: terra_ansible_host
+  become: yes
+  gather_facts: False
+  roles:
+  # - base
+    - docker
+  #  - python

@@ -1,0 +1,13 @@
+---
+
+- name: Install base packages
+  apt: name={{ item }} state=present
+  with_items:
+    - locales
+    - build-essential
+    - acl
+    - ntp
+    - git
+  tags:
+    - packages
+
