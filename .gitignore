@@ -1,6 +1,7 @@
 .terraform/
 */env.*
 env.*
+.idea
 terraform.*
 /Application-release-v1.10/flask-on-docker-nginx-gunicorn/.env.prod.db
 /Application-release-v1.10/flask-on-docker-nginx-gunicorn/.env.prod
